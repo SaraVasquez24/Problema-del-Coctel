@@ -188,13 +188,20 @@ print(f"El SNR es: {snr_valor:.2f} dB")
 ```
 Se calcula el SNR usando `audio1` como señal y `audio3` como ruido.
 
-## Conclusiones
+### 7. Resultados
 
-- Se logró realizar la separación de fuentes mediante **ICA**, permitiendo obtener componentes independientes de los audios mezclados.
-- El análisis en el dominio del tiempo y la frecuencia permitió evaluar las características espectrales de las señales.
-- Se implementó **beamforming** para mejorar la captación de la fuente sonora deseada, ajustando retardos temporales.
-- El **SNR** obtenido proporciona una medida cuantitativa de la calidad de la señal separada.
+#### Analisis de la señal en el dominio de la frecuencia
+![Imagen de WhatsApp 2025-02-28 a las 20 46 35_3bd4f477](https://github.com/user-attachments/assets/02f0b99e-6dd5-4ee6-afe6-14e322a23ca1)
+
+![Imagen de WhatsApp 2025-02-28 a las 20 46 45_345d3e87](https://github.com/user-attachments/assets/02dabb7f-352d-489d-a385-7fc46c08362b)
+
+#### Audios resultantes
+
 
 ## Bibliografía
 -Cohen, L. (1995). Time-Frequency Analysis. Prentice Hall.
 -Makino, S., & Sawada, H. (2007). Blind Signal Separation. Springer.
+-(S/f). Mathworks.com. Recuperado el 1 de marzo de 2025, de https://la.mathworks.com/discovery/beamforming.html
+-Google colab. (s/f). Google.com. Recuperado el 1 de marzo de 2025, de https://colab.research.google.com/github/fchirono/BeamformingBasics/blob/main/BeamformingBasics.ipynb
+-Martínez, A., & Rodríguez, S. (2023). Eliminación de artefactos en el EEG basada en el análisis de componentes independientes. Universidad Complutense de Madrid. https://docta.ucm.es/entities/publication/fec541e4-64bc-4b48-bbdb-6a09e1c22155 
+
