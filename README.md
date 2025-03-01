@@ -195,7 +195,6 @@ Se calcula el SNR usando `audio1` como señal y `audio3` como ruido.
 
 ![Imagen de WhatsApp 2025-02-28 a las 20 46 45_345d3e87](https://github.com/user-attachments/assets/02dabb7f-352d-489d-a385-7fc46c08362b)
 
-#### Audios resultantes
 
 
 ## Bibliografía
